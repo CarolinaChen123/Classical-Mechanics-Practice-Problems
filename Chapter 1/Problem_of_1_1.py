@@ -16,3 +16,6 @@ def transformation(A):
         for j in range(len(A)):
             initials[i] += Transformation[i][j]*A[j]
     return initials
+
+if __name__ == '__main__':
+    main()
