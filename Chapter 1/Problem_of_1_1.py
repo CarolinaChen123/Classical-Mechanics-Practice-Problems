@@ -4,7 +4,6 @@
 #Full solutions may be given later.
 #I have not tested the code.
 
-import numpy as npy
 from math import sqrt
 
 #A is supposed to be a matrix with 3 rows and 1 column
