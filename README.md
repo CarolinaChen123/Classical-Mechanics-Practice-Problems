@@ -3,4 +3,4 @@ I am an Engineering Physics student who have just learned Classical Mechanics du
 
 The book I am using is "Classical Dynamics of Particles and Systems (Fifth Edition)" written by Stephen T. Thornton and Jerry B. Marrion. :)
 
-Everything I done is in the Spyder 4.1.4 :)
+Everything I done is under the Spyder 4.1.4 :)
