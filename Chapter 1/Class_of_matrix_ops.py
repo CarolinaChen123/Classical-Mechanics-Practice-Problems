@@ -4,33 +4,23 @@ import numpy as np
 #Please ignore this file. :) I am just practicing knowledge about classes and objects.
 class matrix_op(object):
 
-    __slots__ = ('choice', 'MatrixA', 'MatrixB')  
+    __slots__ = ('MatrixA', 'MatrixB')  
   
-    def __init__(self, choice, MatrixA, MatrixB):
-        self.choice = choice
+    def __init__(self, MatrixA, MatrixB):
         self.MatrixA = MatrixA
         self.MatrixB = MatrixB
          
     def addition(self):
-        if self.choice == 1:
-            resultadd = np.add(self.MatrixA, self.MatrixB)
-        return resultadd
+        return np.add(self.MatrixA, self.MatrixB)
     
     def substraction(self):
-        if self.choice == 2:
-            resultsub = np.subtract(self.MatrixA, self.MatrixB)
-        return resultsub
+        return np.subtract(self.MatrixA, self.MatrixB)
       
     def dotproduct(self):
-        if self.choice == 3:
-            resultdot = np.dot(self.MatrixA, self.MatrixB)
-        return resultdot
+        return np.dot(self.MatrixA, self.MatrixB)
     
     def crossproduct(self):
-        if self.choice == 4:
-            resultcross = np.cross(self.MatrixA, self.MatrixB)
-        return resultcross
+        return np.cross(self.MatrixA, self.MatrixB)
     
-if __name__ == '__main__':
-    main()
-     
+A = matrix_op([2,2,2],[2,2,2])
+print(A.dotproduct())
