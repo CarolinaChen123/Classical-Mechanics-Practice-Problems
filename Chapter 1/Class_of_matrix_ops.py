@@ -2,7 +2,7 @@ import numpy as np
 
 #MatrixA and MatrixB should be of the same size and the same dimension. I have assumed both as 3 by 1 or 1 by 3.
 #Please ignore this file. :) I am just practicing knowledge about classes and objects.
-Class matrix_op(object):
+class matrix_op(object):
 
     __slots__ = ('_choice', '_MatrixA', '_MatrixB')  
   
