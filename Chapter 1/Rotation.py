@@ -5,6 +5,7 @@
 #choice 3 is the rotation around z-axis.
 from math import sin, cos
 #You just need to input a vector, the axis you want to rotate about, and the angle you want to rotate.
+#I have not tested the code.
 def Rotation(A, choice, angle):
     initials = [0, 0, 0]
     if choice == 1:
