@@ -4,7 +4,7 @@ import numpy as np
 #Please ignore this file. :) I am just practicing knowledge about classes and objects.
 class matrix_op(object):
 
-    __slots__ = ('_choice', '_MatrixA', '_MatrixB')  
+    __slots__ = ('choice', 'MatrixA', 'MatrixB')  
   
     def __init__(self, choice, MatrixA, MatrixB):
         self.choice = choice
