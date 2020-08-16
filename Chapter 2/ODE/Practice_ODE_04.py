@@ -34,3 +34,4 @@ plt.show()
 # Also one important thing I learn is that math.exp is really different from np.exp.
 # I spend so many fxxking time in find the error when I accidentally used math.exp but I should use np.exp.
 # I feel I am stupid. :)
+# math.exp works for only one number while np.exp works for an array of numbers!!! :)
